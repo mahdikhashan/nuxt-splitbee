@@ -20,5 +20,6 @@
     "analytics"
   ],
   "author": "Mahdi Khashan <mahdikhashan1@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/mahdikhashan/nuxt-splitbee#readme"
 }
