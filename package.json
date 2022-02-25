@@ -3,7 +3,22 @@
   "version": "0.0.1",
   "description": "Nuxt implementation of splitbee",
   "main": "lib/module.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": "https://github.com/mahdikhashan/nuxt-splitbee.git",
+  "keywords": [
+    "splitbee",
+    "nuxt",
+    "nuxt-splitbee",
+    "nuxtjs",
+    "vue",
+    "vuejs",
+    "analytics"
+  ],
   "author": "Mahdi Khashan <mahdikhashan1@gmail.com>",
   "license": "MIT"
 }
