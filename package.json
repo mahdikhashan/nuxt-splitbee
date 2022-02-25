@@ -1,0 +1,9 @@
+{
+  "name": "nuxt-splitbee",
+  "version": "0.0.1",
+  "description": "Nuxt implementation of splitbee",
+  "main": "lib/module.js",
+  "repository": "https://github.com/mahdikhashan/nuxt-splitbee.git",
+  "author": "Mahdi Khashan <mahdikhashan1@gmail.com>",
+  "license": "MIT"
+}
