@@ -13,7 +13,7 @@
     "dev": "nuxt test/fixture/dev",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish --access=public",
-    "test": "yarn lint && jest"
+    "test": "jest"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",

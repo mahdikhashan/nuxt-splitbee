@@ -1,3 +1,4 @@
 module.exports = {
-  preset: "@nuxt/test-utils",
-};
+  preset: './jest-preset.js',
+  collectCoverageFrom: ['src/**/*.ts']
+}
