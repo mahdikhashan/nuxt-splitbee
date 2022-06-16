@@ -1,13 +1,29 @@
 {
-  "name": "nuxt-splitbee",
-  "version": "0.0.1",
-  "description": "Nuxt implementation of splitbee",
+  "name": "@mahdikhashan/nuxt-splitbee",
+  "version": "0.0.2",
+  "description": "Splitbee Analytics Module for Nuxt.js",
+  "author": "Mahdi Khashan <mahdikhashan1@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/mahdikhashan/nuxt-splitbee#readme",
   "main": "lib/module.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt test/fixture/dev",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish --access=public",
+    "test": "yarn lint && jest"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "latest",
+    "@nuxt/test-utils": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
   },
   "repository": "https://github.com/mahdikhashan/nuxt-splitbee.git",
   "keywords": [
@@ -19,7 +35,7 @@
     "vuejs",
     "analytics"
   ],
-  "author": "Mahdi Khashan <mahdikhashan1@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/mahdikhashan/nuxt-splitbee#readme"
+  "publishConfig": {
+    "access": "public"
+  }
 }
