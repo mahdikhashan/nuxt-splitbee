@@ -16,6 +16,8 @@
     "test": "yarn lint && jest"
   },
   "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
     "@babel/eslint-parser": "latest",
     "@nuxt/test-utils": "latest",
     "@nuxtjs/eslint-config": "latest",
