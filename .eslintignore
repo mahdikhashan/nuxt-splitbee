@@ -10,3 +10,4 @@ lib/plugin.js
 lib/module.js
 
 jest.config.js
+husky.config.js
